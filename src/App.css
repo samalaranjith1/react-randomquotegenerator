@@ -1,0 +1,38 @@
+
+body{
+  background: url('./images/images.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ width:100%;
+ height:100%;
+}
+.App {
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  opacity: 1;
+  margin: 10%;
+  position: absolute;
+  border: 2px solid green;
+  box-shadow: 2px 2px 15px green;
+  width: 80%;
+  
+}
+.appButton{
+  background-color: rgb(64, 58, 242);
+  color: white;
+  border:2px solid white;
+  aspect-ratio: 1/.4;
+  width: 100px;
+  border-radius: 10px;
+  font-size: large;
+}
+.appButton:hover{
+  background-color: aqua;
+  color:red
+}
+.appText{
+  color:red;
+  text-shadow: 1px 1px 0px yellow;
+}
